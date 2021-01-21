@@ -1,0 +1,27 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 4
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: 'C:\Users\USER\apps\laravel-vuejs-Sell2Brazil'
+        to: /home/vagrant/code
+sites:
+    -
+        map: homestead.test
+        to: /home/vagrant/code/public
+databases:
+    - homestead
+features:
+    - mariadb: false
+    - ohmyzsh: false
+    - webdriver: false
+    - minio: false
+
+backup: true
+
+name: laravel-vuejs-Sell2Brazil
+hostname: laravel-vuejs-Sell2Brazil
