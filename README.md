@@ -1,7 +1,7 @@
 # laravel-vuejs-Sell2Brazil
 Desenvolvido para avaliação da Sell2Brazil
 
-CRUD de Clientes e Contatos, baseado em Laravel 7 (PHP 7.2) + API JWT (Sanctum) + Vue.js
+CRUD de Clientes e Contatos, baseado em Laravel 7 (PHP 7.4) + API JWT (Sanctum) + Vue.js
 
 ## Ambiente local
 
@@ -13,6 +13,7 @@ https://laravel.com/docs/7.x/homestead
 Para usar Homestead, é necessário ter Vagrant (HashiCorp) instalado na máquina local e então configurar o arquivo de exemplo na raíz do projeto:
 
 `cp Homestead.yaml.example Homestead.yaml`
+
 `vim Homestead.yaml`
 
 ### Laragon
@@ -46,6 +47,10 @@ Para abrir o projeto:
 ```
 npm run dev
 ```
+
+http://192.168.10.10
+
+*(ou conforme estiver configurado no arquivo Homestead.yaml / Laragon)*
 
 Credenciais padrão:
 - Email: admin@admin.com
