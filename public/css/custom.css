@@ -63,14 +63,6 @@
   background-blend-mode: saturation;
 }
 
-.login-page {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('/md/img/login.jpg');
-}
-
-.register-page {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/md/img/register.jpg');
-}
-
 .header-filter::before {
   background: rgba(0,0,0,.5);
 }

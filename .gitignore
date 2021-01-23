@@ -27,3 +27,5 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+/public/adminapp/js/chunks/
